@@ -56,6 +56,17 @@ public class FunctionClass {
 		return driver.getTitle();
 	}
 
+	public boolean isEnabled(By locator) {
+		WebElement ele = driver.findElement(locator);
+		return ele.isEnabled();
+	}
+
+	public String getMethodName() {
+		StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+		return stackTrace[1].getMethodName();
+
+	}
+
 	public String getElementText(WebElement ele) {
 		return ele.getText();
 	}
@@ -94,6 +105,25 @@ public class FunctionClass {
 		}
 		case "invisibility": {
 			wait.until(ExpectedConditions.invisibilityOf(ele));
+		}
+		}
+
+	}
+	public void waitExplicitely(By locator, String expectedCondition, Duration time) {
+		WebDriverWait wait = new WebDriverWait(driver, time);
+		WebElement ele=driver.findElement(locator);
+		switch (expectedCondition) {
+		case "elementToBeClickable": {
+			wait.until(ExpectedConditions.elementToBeClickable(ele));
+			break;
+		}
+		case "visibility": {
+			wait.until(ExpectedConditions.visibilityOf(ele));
+			break;
+		}
+		case "invisibility": {
+			wait.until(ExpectedConditions.invisibilityOf(ele));
+			break;
 		}
 		}
 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-02T18:44:12 IST" name="Suite" finished-at="2025-01-02T18:46:14 IST" duration-ms="122417">
+    <groups>
+    </groups>
+    <test started-at="2025-01-02T18:44:12 IST" name="Test" finished-at="2025-01-02T18:46:14 IST" duration-ms="122417">
+      <class name="pages.testBox.TestWorkSpace">
+        <test-method signature="testWorkspaceSelectPage()[pri:0, instance:pages.testBox.TestWorkSpace@d737b89]" started-at="2025-01-02T18:44:27 IST" name="testWorkspaceSelectPage" finished-at="2025-01-02T18:45:03 IST" duration-ms="36093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWorkspaceSelectPage -->
+      </class> <!-- pages.testBox.TestWorkSpace -->
+      <class name="pages.testBox.TestInbox">
+        <test-method signature="testCalender()[pri:0, instance:pages.testBox.TestInbox@8519cb4]" started-at="2025-01-02T18:45:03 IST" name="testCalender" finished-at="2025-01-02T18:45:28 IST" duration-ms="24411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalender -->
+        <test-method signature="testSearchFunctionality()[pri:1, instance:pages.testBox.TestInbox@8519cb4]" started-at="2025-01-02T18:45:28 IST" name="testSearchFunctionality" finished-at="2025-01-02T18:45:44 IST" duration-ms="16609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testDeleteFunctionality()[pri:2, instance:pages.testBox.TestInbox@8519cb4]" started-at="2025-01-02T18:45:44 IST" name="testDeleteFunctionality" finished-at="2025-01-02T18:46:14 IST" duration-ms="29532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteFunctionality -->
+      </class> <!-- pages.testBox.TestInbox -->
+      <class name="pages.testBox.TestClass">
+        <test-method signature="visibilityOfAllElements(java.lang.String)[pri:1, instance:pages.testBox.TestClass@15043a2f]" started-at="2025-01-02T18:44:12 IST" name="visibilityOfAllElements" finished-at="2025-01-02T18:44:22 IST" duration-ms="9853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome@#https://staging.zeninbox.ai/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibilityOfAllElements -->
+        <test-method signature="testLogin(java.lang.String)[pri:2, instance:pages.testBox.TestClass@15043a2f]" started-at="2025-01-02T18:44:22 IST" name="testLogin" finished-at="2025-01-02T18:44:27 IST" duration-ms="5490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jontyFergurson@gmx.com@#JT7_%eZ>AHV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.testBox.TestClass@15043a2f]" started-at="2025-01-02T18:46:15 IST" name="tearDown" finished-at="2025-01-02T18:46:15 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pages.testBox.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
