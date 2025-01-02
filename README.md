@@ -11,7 +11,7 @@ Objects, Functions & Tests can be kept seperate
 
 # Project Structure
 
-To Run please run : /testBox/src/test/java/pages/testBox/Runner.java file
+To Run please run : /testBox/src/test/java/runTest/Runner.java
             Maven : 
                 Dependencies :
                         Java Selenium
