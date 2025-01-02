@@ -1,5 +1,6 @@
 # ai.zeninnBox
 # Project Details
+#To Run suite please run : /testBox/src/test/java/runTest/Runner.java
 Framework : Data driven
 Reason :
 Easy to use
@@ -10,10 +11,13 @@ Multiple data can be used
 Objects, Functions & Tests can be kept seperate
 
 # Project Structure
-
-To Run please run : /testBox/src/test/java/runTest/Runner.java
             Maven : 
-                Dependencies :
+                 Function Box : contains common web functions
+                 ObjectBox :    contains Page Objects for element locators
+                 pages.TestBox  : contains Tests
+                 utilsBox : contains : utilities
+                 runtest :contains Runner class
+               Dependencies :
                         Java Selenium
                         WebDriver Manager
                         TestNG  : 
@@ -21,7 +25,9 @@ To Run please run : /testBox/src/test/java/runTest/Runner.java
                                 @AfterSuite
                                 @Parameters
                                 Listeners : ITestListener
+                      
                         Reporting : ExtentReporter
+             
              Synchronization : Explicit Wait           
              URL :https://staging.zeninbox.ai/
              Path :Staging
