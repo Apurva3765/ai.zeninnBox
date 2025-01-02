@@ -10,6 +10,8 @@ Multiple data can be used
 Objects, Functions & Tests can be kept seperate
 
 # Project Structure
+
+To Run please run : /testBox/src/test/java/pages/testBox/Runner.java file
             Maven : 
                 Dependencies :
                         Java Selenium
