@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utilsBox.ExtentReportManager"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="pages.testBox.TestClass">
+				<methods>
+					<include name="visibilityOfAllElements"></include>
+					<parameter name="strParamLaunch" value="chrome@#https://staging.zeninbox.ai/"></parameter>
+					<include name="testLogin"></include>
+					<parameter name="strParamLogin" value="jontyFergurson@gmx.com@#JT7_%eZ>AHV"></parameter>
+				</methods>
+			</class>
+			<class name="pages.testBox.TestWorkSpace">
+				<methods>
+					<include name="testWorkspaceSelectPage"></include>
+					<include name="testWorkspaceSelectPage"></include>
+				</methods>
+			</class>
+			<class name="pages.testBox.TestInbox">
+				<methods>
+
+					<include name="testCalender"></include>
+					<include name="testSearchFunctionality"></include>
+					<include name="testDeleteFunctionality"></include>
+
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
