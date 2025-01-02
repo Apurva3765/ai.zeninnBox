@@ -37,31 +37,18 @@
 
     Login page :
        To check all the fields are visible
-       
        To check all the elements are interactable
-       
        To check user is able to login using valid email & password
-       
        To check user is able to do SSO using Google and MS account
-       
        To check user is able to do forgot password
-       
        To check user is able to see incorrect data error when user enters incorrect details
-       
        To check if user is able to refresh the page
-       
        To check is user account gets locked after 3 incorrect password attempts
-       
        To check if user can access his account from various browsers
-       
        To check multiple users can login at same time from different systems
-       
        To check if user can login from his Computer as wel as Mobile at once
-       
        To check if website is accessible to visually impared people
-       
        To check if password is masked while user enters password
-       
        TO check  proper error messages are displayed when user enters incorrect details
        
     Select Workspace Page :
